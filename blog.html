@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Блог | Павло Івахов</title>
+</head>
+<body>
+
+    <!-------------------------------------------- HEADER SECTION -->
+    <header class="header" >
+        <a href="#" class="logo">
+            <img src="./image/pngegg.png" alt="logo">
+        </a>
+        <nav class="navbar">
+            <a href="./index.html" class="active">Головна</a>
+            <a href="#">Про нас</a>
+            <a href="./menu.html">Меню</a>
+            <a href="#">Продукти</a>
+            <a href="./review.html">Відгуки</a>
+            <a href="#">Контакти</a>
+            <a href="./blog.html">Блог</a>
+        </nav>
+        <div class="buttons">
+            <button id="search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+            <button id="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+            </button>
+            <button id="menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="search-form">
+            <input type="text" class="search-input" id="search-box" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <div class="cart-items-container">
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (1).png" alt="menu">
+                <div class="content">
+                    <h3>Позиція 1</h3>
+                    <div class="price">150 грн. </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (2).png" alt="menu">
+                <div class="content">
+                    <h3>Позиція 2</h3>
+                    <div class="price">320 грн. </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (3).png" alt="menu">
+                <div class="content">
+                    <h3>Позиція 3</h3>
+                    <div class="price">350 грн. </div>
+                </div>
+            </div>
+            <div class="cart-item">
+                <i class="fas fa-times"></i>
+                <img src="./image/pngwing.com (4).png" alt="menu">
+                <div class="content">
+                    <h3>Позиція 4</h3>
+                    <div class="price">330 грн. </div>
+                </div>
+            </div>
+            <a href="#" class="btn">Замовити </a>
+        </div>
+    </header>
+<!-- -------------------------------------------HEADER SECTION -->
+
+<!-- -------------------------------------------BLOG SECTION -->
+<section class="blog" id="blog">
+    <h1 class="heading">наш <span>блог</span> </h1>
+    <div class="box-container">
+        <div class="box-full">
+            <div class="image">
+                <img src="./image/delicious-burger-on-wooden-board-2022-03-04-05-58-25-utc.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Як ми робимо бургери</a>
+                <span>by admin </span>
+                <p>Кулінарні майстер класи для дорослих відтепер в Хуторку! Станьте справжнім майстром з приготування суші! .</p>
+                <a href="#" class="btn">Читати більше</a>
+            </div>
+        </div>
+        <div class="box-full">
+            <div class="image">
+                <img src="./image/delicious-tasty-burgers-on-wooden-background-2021-08-26-15-25-13-utc.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Особливі рецепти</a>
+                <span>by admin</span>
+                <p>На вас чекає затишна атмосфера, шампанське та кулінарні секрети від наших шефів 🧑🏻‍🍳</p>
+                <a href="#" class="btn">Читати більше</a>
+            </div>
+        </div>
+        <div class="box-full">
+            <div class="image">
+                <img src="./image/handmade-burger-on-dark-background-delicious-blac-2021-10-21-02-27-27-utc.jpg" alt="">
+            </div>
+            <div class="content">
+                <a href="#" class="title">Безкоштовна доставка</a>
+                <span>by admin</span>
+                <p>Замовляйте безкоштовну доставку з ресторану Хуторок та насолоджуйтесь улюбленими стравами  де б ви не були  - вдома, в гостях чи на роботі. </p>
+                <a href="#" class="btn">Читати більше</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- -------------------------------------------BLOG SECTION -->
+
+<!-- -------------------------------------------FOOTER SECTION -->
+    <section class="footer">
+        <div class="search">
+            <input type="text" class="search-input" placeholder="пошук">
+            <button class="btn btn-primary">Шукати</button>
+        </div>
+        <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+            <a href="#" class="fab fa-pinterest"></a>
+        </div>
+        <div class="links">
+            <a href="#home">головна</a>
+            <a href="#">про нас</a>
+            <a href="#menu">меню</a>
+            <a href="#products">продукти</a>
+            <a href="#review">відгуки</a>
+            <a href="#">про нас</a>
+            <a href="#blog">блог</a>
+        </div>
+        <div class="credit">
+            Розробив <span>Івахов Павло 1СП-20Б</span> | Всі права захищено!
+        </div>
+    </section>
+    <!-- -------------------------------------------FOOTER SECTION -->
+
+<script src="./script.js"></script>
+
+</body>
+</html>
